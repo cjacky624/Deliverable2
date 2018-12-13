@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\bin\Debug\12-13FunRecommendations.exe.config
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\bin\Debug\12-13FunRecommendations.exe
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\bin\Debug\12-13FunRecommendations.pdb
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\obj\Debug\12-13FunRecommendations.csprojAssemblyReference.cache
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\obj\Debug\12-13FunRecommendations.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\obj\Debug\12-13FunRecommendations.exe
+C:\Users\user\source\repos\12-13FunRecommendations\12-13FunRecommendations\obj\Debug\12-13FunRecommendations.pdb
