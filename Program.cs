@@ -20,6 +20,7 @@ namespace _12_13FunRecommendations
 
             while (true)
             {
+
                 if (userInput != "action" && userInput != "chilling" && userInput != "danger" && userInput != "good food")
                 {
                     Console.WriteLine("Not a valid choice, please try again.");
@@ -48,33 +49,50 @@ namespace _12_13FunRecommendations
                     }
                 }
 
-                Console.WriteLine("How many people will be joining you?");
+                Console.WriteLine("A: 0");
+                Console.WriteLine("B: 1 to 4");
+                Console.WriteLine("C: 5 to 10");
+                Console.WriteLine("D: More than 11");
+                Console.WriteLine("How many people will be joining you? (please pick from choices, i.e. A)");
 
-                int userInput2 = int.Parse(Console.ReadLine());
-                    //userInput2 = Console.ReadLine().ToLower();
-                    
+                string userInput2 = Console.ReadLine().ToUpper();
+                //userInput2 = Console.ReadLine().ToLower();
 
-                if (userInput2 == 0)
+                if (userInput2 == "A")
                 {
                     Console.WriteLine("Don't forget to bring your sneakers!");
+                    Console.WriteLine();
+                    Console.WriteLine("Goodbye and have fun!");
+                    Console.ReadLine();
                 }
-                if (userInput2 >= 1 && userInput2 <= 4)
+                if (userInput2 == "B")
                 {
                     Console.WriteLine("Make sure you get a sedan to fit everyone in!");
+                    Console.WriteLine();
+                    Console.WriteLine("Goodbye and have fun!");
+                    Console.ReadLine();
                 }
-                if (userInput2 >= 5 && userInput2 <= 10)
+                if (userInput2 == "C")
                 {
                     Console.WriteLine("Make sure you get a Volkswagen bus to be able to fit everyone in!");
+                    Console.WriteLine();
+                    Console.WriteLine("Goodbye and have fun!");
+                    Console.ReadLine();
                 }
-                if (userInput2 >= 11)
+                if (userInput2 == "D")
                 {
                     Console.WriteLine("Make sure you have an airplane to fit everyone in!");
+                    Console.WriteLine();
+                    Console.WriteLine("Goodbye and have fun!");
+                    Console.ReadLine();
                 }
-                else if (userInput2 < 0)
+
+                else
                 {
                     Console.WriteLine("Invalid reply, please try again.");
+                    Console.ReadLine();
                 }
-                Console.ReadLine();
+                
             }
 
 
